@@ -1,0 +1,6 @@
+{
+    "eslint.useFlatConfig": true,
+    "prettier.enable": true,
+    "typescript.suggestionActions.enabled": false,
+    "javascript.suggestionActions.enabled": false
+}

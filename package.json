@@ -1,5 +1,5 @@
 {
-  "name": "my-ts-node-starter",
+  "name": "clap-peer",
   "version": "0.0.9",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -29,18 +29,16 @@
     "globals": "^15.10.0",
     "husky": "^9.1.4",
     "prettier": "^3.3.3",
-    "release-it": "^17.6.0",
-    "typescript": "^5.6.2",
-    "typescript-eslint": "^8.8.0"
+    "release-it": "^17.6.0"
   },
   "overrides": {"eslint":"^9.8.0"},
   "repository": {
     "type": "git",
-    "url": "https://github.com/DIY0R/my-ts-node-starter"
+    "url": "git+https://github.com/DIY0R/clap-peer.git"
   },
-  "homepage": "https://github.com/DIY0R/my-ts-node-starter",
+  "homepage": "https://github.com/DIY0R/clap-peer",
   "bugs": {
-    "url": "https://github.com/DIY0R/my-ts-node-starter/issues"
+    "url": "https://github.com/DIY0R/clap-peer/issues"
   },
   "keywords": [
     "eslint","prettier","ts","commitlint"," release-it","husky-hooks"

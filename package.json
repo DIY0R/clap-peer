@@ -1,16 +1,18 @@
 {
   "name": "clap-peer",
   "version": "0.0.9",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./index.js",
+  "types": "./types/index.d.ts",
   "files": [
-    "./dist"
+    "./lib",
+    "./types"
   ],
   "scripts": {
+    "types": "tsc -p types/tsconfig.json",
     "prettier": "prettier lib/**/*.js --check",
     "prettier:fix": "prettier lib/**/**.js -w",
     "lint": "eslint",
-    "lint:fix" :"eslint --fix",
+    "lint:fix": "eslint --fix",
     "prepare": "husky",
     "release": "release-it"
   },
@@ -31,7 +33,9 @@
     "prettier": "^3.3.3",
     "release-it": "^17.6.0"
   },
-  "overrides": {"eslint":"^9.8.0"},
+  "overrides": {
+    "eslint": "^9.8.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DIY0R/clap-peer.git"
@@ -41,7 +45,12 @@
     "url": "https://github.com/DIY0R/clap-peer/issues"
   },
   "keywords": [
-    "eslint","prettier","ts","commitlint"," release-it","husky-hooks"
+    "eslint",
+    "prettier",
+    "ts",
+    "commitlint",
+    " release-it",
+    "husky-hooks"
   ],
   "npm": {
     "publish": true
@@ -49,5 +58,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "private": false
+  "private": false,
+  "dependencies": {
+    "typescript": "^5.6.2"
+  }
 }

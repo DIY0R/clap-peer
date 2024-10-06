@@ -1,0 +1,20 @@
+{
+    "include": [
+        "../lib",
+        "../index.js"
+    ],
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "allowJs": true,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "outDir": ".",
+        "declarationMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+    }
+}

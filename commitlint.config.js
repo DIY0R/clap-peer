@@ -14,6 +14,7 @@ module.exports = {
         'style',
         'perf',
         'revert',
+        'misc',
       ],
     ],
     'scope-enum': [2, 'always', ['lib', 'test']],

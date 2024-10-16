@@ -1,2 +1,4 @@
 const Messaging = require('./lib/messaging');
-module.exports = { ClapPeer: Messaging };
+const constants = require('./lib/constants');
+
+module.exports = { ClapPeer: Messaging, ...constants };

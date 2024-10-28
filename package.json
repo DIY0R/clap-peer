@@ -1,9 +1,10 @@
 {
   "name": "clap-peer",
   "version": "0.0.0",
-  "main": "./index.js",
-  "types": "./types/index.d.ts",
+  "main": "index.js",
+  "types": "types/index.d.ts",
   "files": [
+    "./index.js",
     "./lib",
     "./types"
   ],
@@ -20,6 +21,7 @@
   "license": "MIT",
   "description": "My TypeScript Node.js Starter",
   "devDependencies": {
+    "typescript": "^5.6.2",
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@eslint/eslintrc": "^3.1.0",
@@ -59,7 +61,5 @@
     "access": "public"
   },
   "private": false,
-  "dependencies": {
-    "typescript": "^5.6.2"
-  }
+  "dependencies": {}
 }

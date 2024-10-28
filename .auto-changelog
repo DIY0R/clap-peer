@@ -1,5 +1,5 @@
 {
-   "ignoreCommitPattern": "^chore",
+   "ignoreCommitPattern": "^(chore|test|revert|style|Merge.*)",
     "output": "CHANGELOG.md",
     "template": "compact",
     "commitLimit": false,  

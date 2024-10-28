@@ -36,7 +36,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
       - run: npm install
       - run: npm run types
-      - name: Add scope to package name
+      - name: add package scope
         run: |
           PACKAGE_NAME=$(jq -r .name package.json)
           SCOPE="@$(echo ${GITHUB_ACTOR} | tr '[:upper:]' '[:lower:]')"

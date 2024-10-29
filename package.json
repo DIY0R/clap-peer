@@ -19,7 +19,7 @@
   },
   "author": "Sobirov Diyorbek <sabirovdiyorkind@gmail.com>",
   "license": "MIT",
-  "description": "My TypeScript Node.js Starter",
+  "description": "P2P data transmission library for direct node communication over TCP",
   "devDependencies": {
     "typescript": "^5.6.2",
     "@commitlint/cli": "^19.5.0",
@@ -47,13 +47,10 @@
     "url": "https://github.com/DIY0R/clap-peer/issues"
   },
   "keywords": [
-    "eslint",
-    "prettier",
-    "ts",
-    "commitlint",
-    " release-it",
-    "husky-hooks"
-  ],
+    "peer-to-peer",
+    "p2p",
+    "tcp"
+    ],
   "npm": {
     "publish": true
   },

@@ -1,6 +1,6 @@
 {
   "name": "clap-peer",
-  "version": "0.0.1-1",
+  "version": "0.0.1",
   "main": "index.js",
   "types": "types/index.d.ts",
   "files": [
@@ -50,7 +50,7 @@
     "peer-to-peer",
     "p2p",
     "tcp"
-    ],
+  ],
   "npm": {
     "publish": true
   },

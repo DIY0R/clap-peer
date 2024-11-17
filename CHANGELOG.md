@@ -2,9 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-#### [0.0.1-1](https://github.com/DIY0R/clap-peer/compare/0.0.1-0...0.0.1-1)
+#### [0.0.1](https://github.com/DIY0R/clap-peer/compare/0.0.1-1...0.0.1)
 
-#### 0.0.1-0
+- fix: private properties [`d7547fe`](https://github.com/DIY0R/clap-peer/commit/d7547fe9880cd3c7a48250deb642376470458f8b)
+- refactor: move to interval duration [`da6be11`](https://github.com/DIY0R/clap-peer/commit/da6be11ccf08fd2adf6e66f6b6af68ed831873ad)
+- fix: use setInterval [`e78edc5`](https://github.com/DIY0R/clap-peer/commit/e78edc566caeace4caa35b41601ee55420a112dd)
+
+#### 0.0.1-1
 
 > 28 October 2024
 

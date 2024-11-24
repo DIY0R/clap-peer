@@ -17,7 +17,6 @@ module.exports = [
       ...prettierPlugin.configs.recommended.rules,
       ...eslintConfigPrettier.rules,
       'max-lines': 'warn',
-      'max-params': ['error', 5],
       'no-unused-vars': 'off',
       'no-unused-private-class-members': 'off',
       'prettier/prettier': [

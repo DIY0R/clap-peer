@@ -2,7 +2,15 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [0.1.0](https://github.com/DIY0R/clap-peer/compare/0.0.1...0.1.0)
+
+- misc: request public key [`53aa10f`](https://github.com/DIY0R/clap-peer/commit/53aa10f112024a882ba5ae2f92d84506819d12ba)
+- refactor: handle error [`e495238`](https://github.com/DIY0R/clap-peer/commit/e4952388bb5699d97261128a2e5ee846382b1f54)
+- feat: encrypt message [`551bb59`](https://github.com/DIY0R/clap-peer/commit/551bb5921f1ff9f681fb3f20cd4414ef394467d2)
+
 #### [0.0.1](https://github.com/DIY0R/clap-peer/compare/0.0.1-1...0.0.1)
+
+> 17 November 2024
 
 - fix: private properties [`d7547fe`](https://github.com/DIY0R/clap-peer/commit/d7547fe9880cd3c7a48250deb642376470458f8b)
 - refactor: move to interval duration [`da6be11`](https://github.com/DIY0R/clap-peer/commit/da6be11ccf08fd2adf6e66f6b6af68ed831873ad)

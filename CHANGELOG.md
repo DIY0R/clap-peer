@@ -2,7 +2,14 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [0.2.0](https://github.com/DIY0R/clap-peer/compare/0.1.0...0.2.0)
+
+- feat: clear public keys [`4462228`](https://github.com/DIY0R/clap-peer/commit/4462228106ff949dd8247b0efb98397e6975ae70)
+- doc: add features [`520f4d2`](https://github.com/DIY0R/clap-peer/commit/520f4d22ab34a1d8484365bfc3eb9d1f7f4752ec)
+
 #### [0.1.0](https://github.com/DIY0R/clap-peer/compare/0.0.1...0.1.0)
+
+> 24 November 2024
 
 - misc: request public key [`53aa10f`](https://github.com/DIY0R/clap-peer/commit/53aa10f112024a882ba5ae2f92d84506819d12ba)
 - refactor: handle error [`e495238`](https://github.com/DIY0R/clap-peer/commit/e4952388bb5699d97261128a2e5ee846382b1f54)

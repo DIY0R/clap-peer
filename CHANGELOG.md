@@ -2,7 +2,15 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [0.3.0](https://github.com/DIY0R/clap-peer/compare/0.2.0...0.3.0)
+
+- doc: update README with message sending and error handling details [`b4fc215`](https://github.com/DIY0R/clap-peer/commit/b4fc21576c9de5d9f9c5a9aaf139585aa1f28d45)
+- refactor: constants structure [`dbd9431`](https://github.com/DIY0R/clap-peer/commit/dbd9431f4f4fab75c066162786afede429b1637d)
+- fix: handle socket error [`810c897`](https://github.com/DIY0R/clap-peer/commit/810c897c0e31006640f4d7a2f636d12dc3f2383e)
+
 #### [0.2.0](https://github.com/DIY0R/clap-peer/compare/0.1.0...0.2.0)
+
+> 28 November 2024
 
 - feat: clear public keys [`4462228`](https://github.com/DIY0R/clap-peer/commit/4462228106ff949dd8247b0efb98397e6975ae70)
 - doc: add features [`520f4d2`](https://github.com/DIY0R/clap-peer/commit/520f4d22ab34a1d8484365bfc3eb9d1f7f4752ec)

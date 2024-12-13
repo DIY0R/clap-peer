@@ -14,6 +14,7 @@
     "prettier:fix": "prettier lib/**/**.js -w",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
+    "test":"node --test ./test/clap-peer.js",
     "prepare": "husky",
     "release": "release-it"
   },

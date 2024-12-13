@@ -1,8 +1,9 @@
-name: checker
+name: Testing CI
 
 on:
   workflow_dispatch:
   pull_request:
+
 jobs:
   commitlint:
     runs-on: ubuntu-22.04
@@ -23,3 +24,44 @@ jobs:
       - name: Validate PR commits with commitlint
         if: github.event_name == 'pull_request'
         run: npx commitlint --from ${{ github.event.pull_request.head.sha }}~${{ github.event.pull_request.commits }} --to ${{ github.event.pull_request.head.sha }} --verbose
+
+  lint-and-test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node:
+          - 20
+          - 21
+          - 22
+        os:
+          - ubuntu-latest
+          - windows-latest
+          - macos-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Use Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Cache Node.js modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Prettier
+        run: npm run prettier
+
+      - name: Run Lint
+        run: npm run lint
+
+      - name: Run Test
+        run: npm run test

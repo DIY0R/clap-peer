@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [0.4.0](https://github.com/DIY0R/clap-peer/compare/0.3.0...0.4.0)
+
+- feat: async init and connect [`c6d427b`](https://github.com/DIY0R/clap-peer/commit/c6d427ba2c550468c1741fdd9eb6ecd3ba09be5c)
+
 #### [0.3.0](https://github.com/DIY0R/clap-peer/compare/0.2.0...0.3.0)
+
+> 5 December 2024
 
 - doc: update README with message sending and error handling details [`b4fc215`](https://github.com/DIY0R/clap-peer/commit/b4fc21576c9de5d9f9c5a9aaf139585aa1f28d45)
 - refactor: constants structure [`dbd9431`](https://github.com/DIY0R/clap-peer/commit/dbd9431f4f4fab75c066162786afede429b1637d)

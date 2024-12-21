@@ -1,6 +1,6 @@
 {
   "name": "clap-peer",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "index.js",
   "types": "types/index.d.ts",
   "files": [
@@ -14,7 +14,7 @@
     "prettier:fix": "prettier lib/**/**.js -w",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "test":"node --test ./test/clap-peer.js",
+    "test": "node --test ./test/clap-peer.js",
     "prepare": "husky",
     "release": "release-it"
   },
